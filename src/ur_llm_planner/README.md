@@ -99,17 +99,17 @@ Skill server cũng kiểm tra lại skill/object/zone một lần nữa (phòng 
 
 ### 1.5. Cá nhân hoá theo MSSV
 
-Khai báo trong `config/student_config.yaml` (nhớ thay bằng tên và MSSV **thật** của bạn):
+Khai báo trong `config/student_config.yaml`:
 
 ```yaml
 /**:
   ros__parameters:
     student:
-      name: "Nguyen Van An"
-      id: "23020123"
+      name: "Vu Ngoc Son"
+      id: "23020764"
 ```
 
-Hoặc ghi đè khi chạy: `--ros-args -p student.name:="Nguyen Van An" -p student.id:=23020123`.
+Hoặc ghi đè khi chạy: `--ros-args -p student.name:="Vu Ngoc Son" -p student.id:=23020764`.
 
 `P = XX mod 6` (XX là hai chữ số cuối MSSV) quyết định vật nào phải nằm ở zone A/B/C:
 
@@ -122,11 +122,11 @@ Hoặc ghi đè khi chạy: `--ros-args -p student.name:="Nguyen Van An" -p stud
 | 4 | blue | red | yellow |
 | 5 | blue | yellow | red |
 
-Ví dụ: MSSV 23020123 → 23 mod 6 = 5 → A = blue, B = yellow, C = red. Khi khởi động, planner in:
+Ví dụ: MSSV 23020764 → 64 mod 6 = 4 → A = blue, B = red, C = yellow. Khi khởi động, planner in:
 
 ```
-STUDENT: Nguyen Van An | ID: 23020123 | P = 23 mod 6 = 5
-PERSONAL TASK: zone_a <- blue_cube | zone_b <- yellow_cube | zone_c <- red_cube
+STUDENT: Vu Ngoc Son | ID: 23020764 | P = 64 mod 6 = 4
+PERSONAL TASK: zone_a <- blue_cube | zone_b <- red_cube | zone_c <- yellow_cube
 ```
 
 Bảng gán này được đưa vào system prompt. Nhờ vậy LLM tự lập kế hoạch cho các lệnh như
@@ -141,7 +141,7 @@ Bảng gán này được đưa vào system prompt. Nhờ vậy LLM tự lập k
 - Validator kiểm tra lại quy tắc này. Nếu LLM sai, lỗi được gửi lại để LLM sửa
   (`llm.max_repair_attempts` = 2).
 
-Ví dụ khi `red_cube` đang nằm ở `zone_b` (MSSV 23020123):
+Ví dụ khi `red_cube` đang nằm ở `zone_b` (MSSV 23020764):
 
 ```
 pick(red_cube) -> place(red_cube, zone_c)        # dọn zone_b, red về luôn đích của nó
