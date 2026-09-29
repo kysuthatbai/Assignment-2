@@ -1,0 +1,285 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48852b97fae725c96e4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						21
+					]
+				},
+				{
+					"build" : "ur_llm_planner__py",
+					"jsonFile" : "directory-ur_llm_planner__py-db7a9da700ffc7f77ed0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sonvu/ur_ws/build/ur_llm_planner/ur_llm_planner__py",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "ur_llm_planner__rs",
+					"jsonFile" : "directory-ur_llm_planner__rs-9fe8501fc3abfcfdcb85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sonvu/ur_ws/build/ur_llm_planner/ur_llm_planner__rs",
+					"targetIndexes" : 
+					[
+						20
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ur_llm_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_llm_planner_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_llm_planner_egg-3c21ab075643224244ab.json",
+					"name" : "ament_cmake_python_build_llm_planner_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ur_llm_planner_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ur_llm_planner_egg-42d9aadffc18245c078d.json",
+					"name" : "ament_cmake_python_build_ur_llm_planner_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_llm_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_llm_planner-1626df76052e9444fe9f.json",
+					"name" : "ament_cmake_python_copy_llm_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ur_llm_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ur_llm_planner-1c1692e319d7e30153c1.json",
+					"name" : "ament_cmake_python_copy_ur_llm_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "skill_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-skill_server-d9a9507fa0d97ab33844.json",
+					"name" : "skill_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1b6e10b229c79cf7e4ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner-28283eee7d9eb264a011.json",
+					"name" : "ur_llm_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__cpp-f213cdffdfff4081f7cf.json",
+					"name" : "ur_llm_planner__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ur_llm_planner__py::@8f12ed398f25092ed571",
+					"jsonFile" : "target-ur_llm_planner__py-871b6da3359f22e921b3.json",
+					"name" : "ur_llm_planner__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_generator_c-c685a03236762ed9c5c2.json",
+					"name" : "ur_llm_planner__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_generator_py-ac55e7aafa97a5bf5238.json",
+					"name" : "ur_llm_planner__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_c-514baa3b8cf999103617.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_c__pyext-546e2a12026e0efbf6c9.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_cpp-bd5fa7fa5794ec5e5385.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_fastrtps_c-68ef75671f09e8c5e21f.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_fastrtps_c__pyext-697148881ee051e76d3b.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_fastrtps_cpp-5aa1f620ecdb5eccc1cb.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_introspection_c-0e99caa52bdf99ed1dbb.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_introspection_c__pyext-b42ead71a569227a9d0e.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner__rosidl_typesupport_introspection_cpp-8bb0b2bb1122d70d81c6.json",
+					"name" : "ur_llm_planner__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ur_llm_planner__rs::@dfe2c506f11188d08383",
+					"jsonFile" : "target-ur_llm_planner__rs-3324606055ae39d48247.json",
+					"name" : "ur_llm_planner__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_llm_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_llm_planner_uninstall-7aaadd7685a6b778f37f.json",
+					"name" : "ur_llm_planner_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sonvu/ur_ws/build/ur_llm_planner",
+		"source" : "/home/sonvu/ur_ws/src/ur_llm_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,6 @@
+/home/sonvu/ur_ws/install/ur_robot_driver/lib/librobot_state_helper_lib.so
+/home/sonvu/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+/home/sonvu/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+/home/sonvu/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+/home/sonvu/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+/home/sonvu/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap

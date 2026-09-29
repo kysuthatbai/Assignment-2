@@ -1,0 +1,193 @@
+[0.015s] Invoking command in '/home/sonvu/ur_ws/build/ur_llm_planner': CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sonvu/ur_ws/build/ur_llm_planner -- -j16 -l16
+[0.076s] [  2%] Built target ur_llm_planner__cpp
+[0.079s] [  5%] Built target ur_llm_planner__rs
+[0.084s] [  5%] Built target ament_cmake_python_copy_ur_llm_planner
+[0.085s] [  5%] Built target ament_cmake_python_copy_llm_planner
+[0.087s] [ 14%] Built target ur_llm_planner__rosidl_generator_c
+[0.097s] [ 23%] Built target ur_llm_planner__rosidl_typesupport_fastrtps_cpp
+[0.098s] [ 32%] Built target ur_llm_planner__rosidl_typesupport_introspection_cpp
+[0.104s] [ 41%] Built target ur_llm_planner__rosidl_typesupport_cpp
+[0.114s] [ 50%] Built target ur_llm_planner__rosidl_typesupport_introspection_c
+[0.114s] [ 58%] Built target ur_llm_planner__rosidl_typesupport_c
+[0.115s] [ 67%] Built target ur_llm_planner__rosidl_typesupport_fastrtps_c
+[0.138s] [ 67%] Built target ur_llm_planner
+[0.140s] [ 70%] Building CXX object CMakeFiles/skill_server.dir/src/skill_server.cpp.o
+[0.160s] [ 73%] Built target ur_llm_planner__py
+[0.186s] [ 79%] Built target ur_llm_planner__rosidl_generator_py
+[0.210s] [ 85%] Built target ur_llm_planner__rosidl_typesupport_fastrtps_c__pyext
+[0.212s] [ 91%] Built target ur_llm_planner__rosidl_typesupport_c__pyext
+[0.218s] [ 97%] Built target ur_llm_planner__rosidl_typesupport_introspection_c__pyext
+[0.303s] running egg_info
+[0.303s] running egg_info
+[0.303s] writing llm_planner.egg-info/PKG-INFO
+[0.304s] writing ur_llm_planner.egg-info/PKG-INFO
+[0.304s] writing dependency_links to llm_planner.egg-info/dependency_links.txt
+[0.304s] writing dependency_links to ur_llm_planner.egg-info/dependency_links.txt
+[0.304s] writing top-level names to llm_planner.egg-info/top_level.txt
+[0.304s] writing top-level names to ur_llm_planner.egg-info/top_level.txt
+[0.305s] reading manifest file 'llm_planner.egg-info/SOURCES.txt'
+[0.305s] reading manifest file 'ur_llm_planner.egg-info/SOURCES.txt'
+[0.306s] writing manifest file 'llm_planner.egg-info/SOURCES.txt'
+[0.306s] writing manifest file 'ur_llm_planner.egg-info/SOURCES.txt'
+[0.329s] [ 97%] Built target ament_cmake_python_build_ur_llm_planner_egg
+[0.330s] [ 97%] Built target ament_cmake_python_build_llm_planner_egg
+[8.378s] [100%] Linking CXX executable skill_server
+[8.794s] [100%] Built target skill_server
+[8.803s] Invoked command in '/home/sonvu/ur_ws/build/ur_llm_planner' returned '0': CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sonvu/ur_ws/build/ur_llm_planner -- -j16 -l16
+[8.813s] Invoking command in '/home/sonvu/ur_ws/build/ur_llm_planner': CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sonvu/ur_ws/build/ur_llm_planner
+[8.820s] -- Install configuration: ""
+[8.820s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/rosidl_interfaces/ur_llm_planner
+[8.820s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner
+[8.820s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg
+[8.820s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_generator_c__visibility_control.h
+[8.821s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv
+[8.821s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail
+[8.821s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__struct.h
+[8.821s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__functions.h
+[8.821s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__functions.c
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.h
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/execute_skill.h
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/library_path.sh
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/library_path.dsv
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_generator_c.so
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv
+[8.822s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_fastrtps_c.h
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_fastrtps_c.so
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.c
+[8.823s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_introspection_c.h
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_introspection_c.so
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_c.so
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/execute_skill.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__struct.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__traits.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__builder.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/dds_fastrtps
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_fastrtps_cpp.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_fastrtps_cpp.so
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_introspection_cpp.hpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.cpp
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_introspection_cpp.so
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_cpp.so
+[8.824s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/pythonpath.sh
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/pythonpath.dsv
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info
+[8.825s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/SOURCES.txt
+[8.825s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/top_level.txt
+[8.825s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/dependency_links.txt
+[8.825s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/PKG-INFO
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/_ur_llm_planner_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/_ur_llm_planner_s.ep.rosidl_typesupport_introspection_c.c
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/__init__.py
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/_ur_llm_planner_s.ep.rosidl_typesupport_c.c
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv/__init__.py
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv/_execute_skill.py
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv/_execute_skill_s.c
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/libur_llm_planner__rosidl_generator_py.so
+[8.825s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.851s] Listing '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner'...
+[8.851s] Listing '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv'...
+[8.855s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.855s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.855s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_generator_py.so
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/rust_packages/ur_llm_planner
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/srv.rs
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/srv
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/srv/rmw.rs
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/lib.rs
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/Cargo.toml
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/build.rs
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill.idl
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill.srv
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill_Request.msg
+[8.856s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill_Response.msg
+[8.856s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/lib/ur_llm_planner/skill_server
+[8.858s] -- Set runtime path of "/home/sonvu/ur_ws/install/ur_llm_planner/lib/ur_llm_planner/skill_server" to ""
+[8.858s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info
+[8.858s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/SOURCES.txt
+[8.858s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/top_level.txt
+[8.858s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/dependency_links.txt
+[8.858s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/PKG-INFO
+[8.858s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner
+[8.858s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/prompt.py
+[8.858s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/__init__.py
+[8.858s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/plan_validator.py
+[8.858s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/llm_client.py
+[8.883s] Listing '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner'...
+[8.886s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/lib/ur_llm_planner/llm_planner_node.py
+[8.886s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/launch
+[8.886s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/launch/sim.launch.py
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/config
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/config/llm.yaml
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/config/scene.yaml
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/worlds
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/worlds/pick_place.sdf
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/package_run_dependencies/ur_llm_planner
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/parent_prefix_path/ur_llm_planner
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/ament_prefix_path.sh
+[8.887s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/ament_prefix_path.dsv
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/path.sh
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/path.dsv
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.bash
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.sh
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.zsh
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.dsv
+[8.888s] -- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/package.dsv
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/packages/ur_llm_planner
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_cExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_cExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_cppExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cppExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cppExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cppExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_pyExport.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_pyExport-noconfig.cmake
+[8.888s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/rosidl_cmake-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_targets-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_plannerConfig.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_plannerConfig-version.cmake
+[8.889s] -- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/package.xml
+[8.890s] Invoked command in '/home/sonvu/ur_ws/build/ur_llm_planner' returned '0': CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sonvu/ur_ws/build/ur_llm_planner

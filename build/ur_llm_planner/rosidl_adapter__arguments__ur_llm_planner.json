@@ -1,0 +1,6 @@
+{
+  "package_name": "ur_llm_planner",
+  "non_idl_tuples": [
+    "/home/sonvu/ur_ws/src/ur_llm_planner:srv/ExecuteSkill.srv"
+  ]
+}

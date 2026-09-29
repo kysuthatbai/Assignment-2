@@ -1,0 +1,320 @@
+[0.013s] Invoking command in '/home/sonvu/ur_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sonvu/ur_ws/install/ur_controllers
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.371s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.371s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.480s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.553s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.557s] -- Found controller_interface: 2.54.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.592s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.596s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.801s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.831s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.959s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.964s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.981s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.983s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.989s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.997s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.009s] -- Looking for pthread.h
+[1.070s] -- Looking for pthread.h - found
+[1.071s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.131s] -- Found Threads: TRUE  
+[1.173s] -- Found joint_trajectory_controller: 2.53.1 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.243s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.252s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.260s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.261s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.261s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.311s] -- Found ur_dashboard_msgs: 2.15.0 (/home/sonvu/ur_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.322s] -- Found ur_msgs: 2.6.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.350s] -- Found ament_cmake_gmock: 1.3.14 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.355s] -- Found controller_manager: 2.54.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.373s] -- Found ros2_control_test_assets: 2.54.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.376s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.380s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.381s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.436s] -- Configuring done
+[1.478s] -- Generating done
+[1.495s] -- Build files have been written to: /home/sonvu/ur_ws/build/ur_controllers
+[1.503s] Invoked command in '/home/sonvu/ur_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sonvu/ur_ws/install/ur_controllers
+[1.505s] Invoking command in '/home/sonvu/ur_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sonvu/ur_ws/build/ur_controllers -- -j16 -l16
+[1.565s] [  2%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.565s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.565s] [  6%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/friction_model_controller_parameters.yaml `[0m
+[1.566s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.566s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.567s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.567s] [ 15%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[1.567s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.568s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.571s] [ 22%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.572s] [ 24%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.572s] [ 26%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.685s] [ 28%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.698s] [ 28%] Built target ur_configuration_controller_parameters
+[1.700s] [ 31%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.700s] [ 33%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.712s] [ 35%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.712s] [ 35%] Built target freedrive_mode_controller_parameters
+[1.712s] [ 35%] Built target gpio_controller_parameters
+[1.715s] [ 37%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.723s] [ 37%] Built target speed_scaling_state_broadcaster_parameters
+[1.726s] [ 37%] Built target force_mode_controller_parameters
+[1.726s] [ 40%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.739s] [ 40%] Built target scaled_joint_trajectory_controller_parameters
+[1.740s] [ 42%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/friction_model_controller_parameters.hpp[0m
+[1.755s] [ 44%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.756s] [ 46%] [34m[1mCreating deprecated header file /home/sonvu/ur_ws/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.757s] [ 46%] Built target friction_model_controller_parameters
+[1.770s] [ 46%] Built target tool_contact_controller_parameters
+[1.770s] [ 46%] Built target passthrough_trajectory_controller_parameters
+[1.788s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[1.789s] [ 51%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.789s] [ 53%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/friction_model_controller.cpp.o[0m
+[1.789s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.790s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[1.790s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[1.791s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.792s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[1.792s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[2.498s] [ 68%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[2.538s] [ 68%] Built target gmock_main
+[3.642s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[3.642s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp:26[m[K,
+[3.642s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp:50[m[K,
+[3.642s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster.cpp:38[m[K:
+[3.642s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[3.642s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[3.642s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[3.752s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[3.752s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp:26[m[K,
+[3.752s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:61[m[K,
+[3.752s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:42[m[K:
+[3.752s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[3.752s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[3.752s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[3.815s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[3.815s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp:26[m[K,
+[3.815s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/friction_model_controller.hpp:47[m[K,
+[3.815s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/friction_model_controller.cpp:43[m[K:
+[3.815s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[3.815s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[3.815s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[3.862s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[3.862s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp:26[m[K,
+[3.862s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:56[m[K,
+[3.862s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:41[m[K:
+[3.863s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[3.863s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[3.863s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[3.970s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[3.970s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp:26[m[K,
+[3.970s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/force_mode_controller.hpp:50[m[K,
+[3.970s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller.cpp:42[m[K:
+[3.970s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[3.970s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[3.970s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[4.185s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp:26[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp:39[m[K,
+[4.185s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:32[m[K,
+[4.185s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+[4.185s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[4.185s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[4.185s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[4.185s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[4.836s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[4.836s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp:26[m[K,
+[4.836s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:67[m[K,
+[4.836s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[4.836s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[4.836s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[4.836s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[4.836s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[4.837s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp:26[m[K,
+[4.837s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp:53[m[K,
+[4.837s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:41[m[K:
+[4.837s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[4.837s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[4.837s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[5.257s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[5.257s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp:26[m[K,
+[5.258s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:60[m[K,
+[5.258s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller.cpp:42[m[K:
+[5.258s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[5.258s]    18 | , or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[5.258s]       |                                                                                  [01;36m[K^[m[K
+[5.258s] 
+[5.479s] [ 71%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.550s] [ 71%] Built target gmock
+[8.831s] [ 73%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[9.950s] [ 73%] Built target ur_controllers
+[9.975s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_scaled_joint_trajectory_controller.dir/test/test_load_scaled_joint_trajectory_controller.cpp.o[0m
+[9.975s] [ 77%] [32mBuilding CXX object CMakeFiles/test_load_friction_model_controller.dir/test/test_load_friction_model_controller.cpp.o[0m
+[9.975s] [ 80%] [32mBuilding CXX object CMakeFiles/test_tool_contact_controller.dir/test/test_tool_contact_controller.cpp.o[0m
+[9.977s] [ 82%] [32mBuilding CXX object CMakeFiles/test_scaled_joint_trajectory_controller_sampling.dir/test/test_scaled_joint_trajectory_controller_sampling.cpp.o[0m
+[9.983s] [ 84%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[9.987s] [ 86%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[12.267s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[12.267s]                  from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp:26[m[K,
+[12.267s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:60[m[K,
+[12.267s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/test/test_tool_contact_controller.cpp:40[m[K:
+[12.267s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[12.267s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[12.267s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[12.355s] In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp:26[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp:39[m[K,
+[12.355s]                  from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:32[m[K,
+[12.356s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+[12.356s]                  from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/test/test_scaled_joint_trajectory_controller_sampling.cpp:47[m[K:
+[12.356s] [01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+[12.356s]    18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+[12.356s]       |                                                                                                                                                                       [01;36m[K^[m[K
+[13.276s] [ 88%] [32m[1mLinking CXX executable test_tool_contact_controller[0m
+[13.681s] [ 91%] [32m[1mLinking CXX executable test_load_friction_model_controller[0m
+[13.727s] [ 93%] [32m[1mLinking CXX executable test_load_scaled_joint_trajectory_controller[0m
+[13.870s] [ 95%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[13.913s] [ 97%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[13.939s] [ 97%] Built target test_load_friction_model_controller
+[13.978s] [ 97%] Built target test_load_scaled_joint_trajectory_controller
+[14.091s] [ 97%] Built target test_tool_contact_controller
+[14.107s] [ 97%] Built target test_load_freedrive_mode_controller
+[14.154s] [ 97%] Built target test_load_force_mode_controller
+[15.055s] [100%] [32m[1mLinking CXX executable test_scaled_joint_trajectory_controller_sampling[0m
+[15.615s] [100%] Built target test_scaled_joint_trajectory_controller_sampling
+[15.623s] Invoked command in '/home/sonvu/ur_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sonvu/ur_ws/build/ur_controllers -- -j16 -l16
+[15.625s] Invoking command in '/home/sonvu/ur_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sonvu/ur_ws/build/ur_controllers
+[15.630s] -- Install configuration: ""
+[15.630s] -- Execute custom install script
+[15.630s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.637s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.650s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.659s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.668s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.676s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.694s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.718s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.729s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.740s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.740s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.740s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.740s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.741s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.742s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.743s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.744s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.745s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.746s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.747s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.747s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[15.747s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[15.747s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp
+[15.747s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[15.748s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[15.748s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[15.748s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[15.748s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[15.748s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[15.748s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[15.758s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/lib/libur_controllers.so
+[15.781s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[15.805s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[15.820s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/friction_model_controller.hpp
+[15.833s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[15.847s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[15.856s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[15.873s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[15.891s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[15.897s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[15.907s] -- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[15.907s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[15.917s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[15.927s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[15.935s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[15.954s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[15.962s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[15.974s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[15.983s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[15.995s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[16.006s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[16.015s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[16.030s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[16.043s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[16.051s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[16.062s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[16.070s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.079s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.093s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[16.102s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[16.108s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[16.114s] -- Symlinking: /home/sonvu/ur_ws/install/ur_controllers/share/ur_controllers/package.xml
+[16.124s] Invoked command in '/home/sonvu/ur_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sonvu/ur_ws/build/ur_controllers

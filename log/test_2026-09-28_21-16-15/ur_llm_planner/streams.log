@@ -1,0 +1,45 @@
+[0.106s] Invoking command in '/home/sonvu/ur_ws/build/ur_llm_planner': CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.114s] UpdateCTestConfiguration  from :/home/sonvu/ur_ws/build/ur_llm_planner/CTestConfiguration.ini
+[0.114s] Parse Config file:/home/sonvu/ur_ws/build/ur_llm_planner/CTestConfiguration.ini
+[0.114s]    Site: sonvu-Thin-15-B13UC
+[0.114s]    Build name: (empty)
+[0.115s]  Add coverage exclude regular expressions.
+[0.115s] Create new tag: 20260928-1416 - Experimental
+[0.115s] UpdateCTestConfiguration  from :/home/sonvu/ur_ws/build/ur_llm_planner/CTestConfiguration.ini
+[0.115s] Parse Config file:/home/sonvu/ur_ws/build/ur_llm_planner/CTestConfiguration.ini
+[0.115s] Test project /home/sonvu/ur_ws/build/ur_llm_planner
+[0.115s] Constructing a list of tests
+[0.115s] Done constructing a list of tests
+[0.115s] Updating test list for fixtures
+[0.115s] Added 0 tests to meet fixture requirements
+[0.115s] Checking test dependency graph...
+[0.115s] Checking test dependency graph end
+[0.115s] test 1
+[0.115s]     Start 1: test_plan_validator
+[0.115s] 
+[0.115s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/sonvu/ur_ws/build/ur_llm_planner/test_results/ur_llm_planner/test_plan_validator.xunit.xml" "--package-name" "ur_llm_planner" "--output-file" "/home/sonvu/ur_ws/build/ur_llm_planner/ament_cmake_pytest/test_plan_validator.txt" "--command" "python3" "-u" "-m" "pytest" "/home/sonvu/ur_ws/src/ur_llm_planner/test/test_plan_validator.py" "-o" "cache_dir=/home/sonvu/ur_ws/build/ur_llm_planner/ament_cmake_pytest/test_plan_validator/.cache" "--junit-xml=/home/sonvu/ur_ws/build/ur_llm_planner/test_results/ur_llm_planner/test_plan_validator.xunit.xml" "--junit-prefix=ur_llm_planner"
+[0.115s] 1: Test timeout computed to be: 60
+[0.163s] 1: -- run_test.py: invoking following command in '/home/sonvu/ur_ws/src/ur_llm_planner':
+[0.163s] 1:  - python3 -u -m pytest /home/sonvu/ur_ws/src/ur_llm_planner/test/test_plan_validator.py -o cache_dir=/home/sonvu/ur_ws/build/ur_llm_planner/ament_cmake_pytest/test_plan_validator/.cache --junit-xml=/home/sonvu/ur_ws/build/ur_llm_planner/test_results/ur_llm_planner/test_plan_validator.xunit.xml --junit-prefix=ur_llm_planner
+[0.350s] 1: ============================= test session starts ==============================
+[0.350s] 1: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.354s] 1: cachedir: /home/sonvu/ur_ws/build/ur_llm_planner/ament_cmake_pytest/test_plan_validator/.cache
+[0.354s] 1: rootdir: /home/sonvu/ur_ws/src/ur_llm_planner
+[0.354s] 1: plugins: launch-testing-1.0.14, ament-copyright-0.12.15, launch-testing-ros-0.19.13, ament-lint-0.12.15, ament-xmllint-0.12.15, ament-flake8-0.12.15, ament-pep257-0.12.15, cov-3.0.0, colcon-core-0.20.1
+[0.359s] 1: collected 20 items
+[0.359s] 1: 
+[0.374s] 1: test/test_plan_validator.py ....................                         [100%]
+[0.374s] 1: 
+[0.374s] 1: - generated xml file: /home/sonvu/ur_ws/build/ur_llm_planner/test_results/ur_llm_planner/test_plan_validator.xunit.xml -
+[0.374s] 1: ============================== 20 passed in 0.02s ==============================
+[0.401s] 1: -- run_test.py: return code 0
+[0.402s] 1: -- run_test.py: verify result file '/home/sonvu/ur_ws/build/ur_llm_planner/test_results/ur_llm_planner/test_plan_validator.xunit.xml'
+[0.408s] 1/1 Test #1: test_plan_validator ..............   Passed    0.29 sec
+[0.408s] 
+[0.409s] 100% tests passed, 0 tests failed out of 1
+[0.409s] 
+[0.409s] Label Time Summary:
+[0.409s] pytest    =   0.29 sec*proc (1 test)
+[0.409s] 
+[0.409s] Total Test time (real) =   0.29 sec
+[0.412s] Invoked command in '/home/sonvu/ur_ws/build/ur_llm_planner' returned '0': CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

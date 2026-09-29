@@ -1,0 +1,4 @@
+srv/ExecuteSkill.idl
+srv/ExecuteSkill.srv
+srv/ExecuteSkill_Request.msg
+srv/ExecuteSkill_Response.msg

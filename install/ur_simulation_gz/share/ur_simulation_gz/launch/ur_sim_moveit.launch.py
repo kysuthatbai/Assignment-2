@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/src/ur_simulation_gz/ur_simulation_gz/launch/ur_sim_moveit.launch.py

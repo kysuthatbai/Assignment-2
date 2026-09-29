@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/build/ur_dashboard_msgs/rosidl_generator_c/ur_dashboard_msgs/srv/get_serial_number.h

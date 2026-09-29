@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/build/ur_dashboard_msgs/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_user_role__struct.h

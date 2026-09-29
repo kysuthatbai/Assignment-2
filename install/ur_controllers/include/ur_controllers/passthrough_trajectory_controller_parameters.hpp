@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp

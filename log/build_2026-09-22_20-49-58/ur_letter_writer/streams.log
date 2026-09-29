@@ -1,0 +1,88 @@
+[0.020s] Invoking command in '/home/sonvu/ur_ws/build/ur_letter_writer': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sonvu/ur_ws/src/ur_letter_writer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sonvu/ur_ws/install/ur_letter_writer
+[0.213s] -- The C compiler identification is GNU 11.4.0
+[0.319s] -- The CXX compiler identification is GNU 11.4.0
+[0.328s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.484s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.485s] -- Detecting C compile features
+[0.485s] -- Detecting C compile features - done
+[0.488s] -- Detecting CXX compiler ABI info
+[0.583s] -- Detecting CXX compiler ABI info - done
+[0.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.591s] -- Detecting CXX compile features
+[0.592s] -- Detecting CXX compile features - done
+[0.599s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.726s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.777s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.812s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.855s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.861s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.869s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.937s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.070s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.102s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.155s] -- Looking for pthread.h
+[1.259s] -- Looking for pthread.h - found
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.354s] -- Found Threads: TRUE  
+[1.398s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.409s] -- Found moveit_msgs: 2.2.3 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.520s] -- Found moveit_ros_planning_interface: 2.5.10 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.547s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.566s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.607s] -- Found parameter_traits: 0.7.1 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.624s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.746s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.778s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.778s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.896s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.920s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.938s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.964s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.028s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.029s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.029s] -- Configured cppcheck include dirs: 
+[2.029s] -- Configured cppcheck exclude dirs and/or files: 
+[2.030s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.030s] -- Configured cpplint exclude dirs and/or files: 
+[2.030s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.031s] -- Added test 'lint_cmake' to check CMake code style
+[2.031s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.032s] -- Added test 'uncrustify' to check C / C++ code style
+[2.032s] -- Configured uncrustify additional arguments: 
+[2.032s] -- Added test 'xmllint' to check XML markup files
+[2.034s] -- Configuring done
+[2.054s] -- Generating done
+[2.058s] -- Build files have been written to: /home/sonvu/ur_ws/build/ur_letter_writer
+[2.067s] Invoked command in '/home/sonvu/ur_ws/build/ur_letter_writer' returned '0': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sonvu/ur_ws/src/ur_letter_writer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sonvu/ur_ws/install/ur_letter_writer
+[2.069s] Invoking command in '/home/sonvu/ur_ws/build/ur_letter_writer': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sonvu/ur_ws/build/ur_letter_writer -- -j16 -l16
+[2.147s] [ 50%] [32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o[0m
+[8.032s] [100%] [32m[1mLinking CXX executable letter_writer_node[0m
+[8.464s] [100%] Built target letter_writer_node
+[8.511s] Invoked command in '/home/sonvu/ur_ws/build/ur_letter_writer' returned '0': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sonvu/ur_ws/build/ur_letter_writer -- -j16 -l16
+[8.534s] Invoking command in '/home/sonvu/ur_ws/build/ur_letter_writer': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sonvu/ur_ws/build/ur_letter_writer
+[8.550s] -- Install configuration: ""
+[8.551s] -- Execute custom install script
+[8.552s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/lib/ur_letter_writer/letter_writer_node
+[8.563s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/launch/ur3_letter_writer.launch.py
+[8.576s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ament_index/resource_index/package_run_dependencies/ur_letter_writer
+[8.597s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ament_index/resource_index/parent_prefix_path/ur_letter_writer
+[8.617s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/ament_prefix_path.sh
+[8.627s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/ament_prefix_path.dsv
+[8.634s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/path.sh
+[8.646s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/path.dsv
+[8.657s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.bash
+[8.676s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.sh
+[8.695s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.zsh
+[8.706s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.dsv
+[8.723s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/package.dsv
+[8.733s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ament_index/resource_index/packages/ur_letter_writer
+[8.745s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/cmake/ur_letter_writerConfig.cmake
+[8.759s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/cmake/ur_letter_writerConfig-version.cmake
+[8.777s] -- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/package.xml
+[8.790s] Invoked command in '/home/sonvu/ur_ws/build/ur_letter_writer' returned '0': AMENT_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble LD_LIBRARY_PATH=/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sonvu/ur_ws/build/ur_letter_writer

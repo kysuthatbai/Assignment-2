@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver/scripts/wait_robot_booted.py

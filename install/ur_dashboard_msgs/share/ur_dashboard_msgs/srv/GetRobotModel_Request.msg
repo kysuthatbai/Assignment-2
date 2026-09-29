@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/build/ur_dashboard_msgs/rosidl_cmake/srv/GetRobotModel_Request.msg

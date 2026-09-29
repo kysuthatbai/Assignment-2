@@ -1,0 +1,1 @@
+/home/sonvu/ur_ws/build/ur_dashboard_msgs/rosidl_generator_rs/ur_dashboard_msgs/rust/src/action.rs

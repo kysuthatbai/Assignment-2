@@ -1,0 +1,384 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'ur'}
+[0.000202] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.000239] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000281] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000378] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000410] (-) JobUnselected: {'identifier': 'ur_letter_writer'}
+[0.000441] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000471] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000526] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.000624] (ur_llm_planner) JobQueued: {'identifier': 'ur_llm_planner', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/sonvu/ur_ws/install/ur_dashboard_msgs'), ('ur_moveit_config', '/home/sonvu/ur_ws/install/ur_moveit_config'), ('ur_controllers', '/home/sonvu/ur_ws/install/ur_controllers'), ('ur_simulation_gz', '/home/sonvu/ur_ws/install/ur_simulation_gz')])}
+[0.000676] (ur_llm_planner) JobStarted: {'identifier': 'ur_llm_planner'}
+[0.016883] (ur_llm_planner) JobProgress: {'identifier': 'ur_llm_planner', 'progress': 'cmake'}
+[0.018148] (ur_llm_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/sonvu/ur_ws/src/ur_llm_planner', '-DCMAKE_INSTALL_PREFIX=/home/sonvu/ur_ws/install/ur_llm_planner'], 'cwd': '/home/sonvu/ur_ws/build/ur_llm_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sonvu/ur_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-283_agent'), ('LANGUAGE', 'en_US:en'), ('USER', 'sonvu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'vi_VN'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.283'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'b5e3bdbea9b3c0accfcf98624e6855b0'), ('HOME', '/home/sonvu'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '1'), ('OLDPWD', '/home/sonvu/ur_ws/src/ur_llm_planner/src'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-78106ad6-1.12-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'vi_VN'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('SYSTEMD_EXEC_PID', '1765'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/sonvu/ur_ws/install:/home/sonvu/rtablc_base/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sonvu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sonvu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/sonvu/ur_ws/install/ur_robot_driver/bin:/home/sonvu/.local/bin:/opt/ros/humble/bin:/home/sonvu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/pdf-viewer~g2/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/design/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/legal/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/engineering/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/data/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/canva/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/cowork-plugin-management/bin'), ('SESSION_MANAGER', 'local/sonvu-Thin-15-B13UC:@/tmp/.ICE-unix/1735,unix/sonvu-Thin-15-B13UC:/tmp/.ICE-unix/1735'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34f262aa_9a64_420c_8bd7_92122324e787'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '17165'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPVZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('COPILOT_OTEL_ENABLED', 'true'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('MXC_BIN_DIR', '/usr/share/code/resources/app/node_modules/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'a618fc4b-00fa-4d8e-8546-38c0691d8e33'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sonvu/ur_ws/build/ur_llm_planner'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/sonvu/.config/Code/CachedData/6a44c352bd24569c417e530095901b649960f9f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/sonvu/.vscode/extensions/anthropic.claude-code-2.1.283-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/sonvu/rtablc_base/build/rtablc_experiment:/home/sonvu/rtablc_base/install/rtablc_experiment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/17165.sock'), ('CMAKE_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('VSCODE_PID', '15003'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[0.034438] (ur_llm_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098910] (-) TimerEvent: {}
+[0.167779] (ur_llm_planner) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.169936] (ur_llm_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.172317] (ur_llm_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.198984] (-) TimerEvent: {}
+[0.201265] (ur_llm_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.224903] (ur_llm_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.259203] (ur_llm_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.260530] (ur_llm_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299064] (-) TimerEvent: {}
+[0.378571] (ur_llm_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399169] (-) TimerEvent: {}
+[0.437947] (ur_llm_planner) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.452149] (ur_llm_planner) StdoutLine: {'line': b'-- Found moveit_msgs: 2.2.3 (/opt/ros/humble/share/moveit_msgs/cmake)\n'}
+[0.499319] (-) TimerEvent: {}
+[0.587127] (ur_llm_planner) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.10 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.597768] (ur_llm_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.599379] (-) TimerEvent: {}
+[0.611020] (ur_llm_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.636587] (ur_llm_planner) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.1 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.643860] (ur_llm_planner) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.692969] (ur_llm_planner) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.699482] (-) TimerEvent: {}
+[0.719251] (ur_llm_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.799650] (-) TimerEvent: {}
+[0.825181] (ur_llm_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[0.852490] (ur_llm_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[0.870817] (ur_llm_planner) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[0.897238] (ur_llm_planner) StdoutLine: {'line': b'-- Found ros_gz_interfaces: 0.244.24 (/opt/ros/humble/share/ros_gz_interfaces/cmake)\n'}
+[0.899743] (-) TimerEvent: {}
+[0.999925] (-) TimerEvent: {}
+[1.100139] (-) TimerEvent: {}
+[1.180843] (ur_llm_planner) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.200290] (-) TimerEvent: {}
+[1.300454] (-) TimerEvent: {}
+[1.384007] (ur_llm_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.400545] (-) TimerEvent: {}
+[1.500727] (-) TimerEvent: {}
+[1.600913] (-) TimerEvent: {}
+[1.668303] (ur_llm_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.699614] (ur_llm_planner) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.700975] (-) TimerEvent: {}
+[1.723788] (ur_llm_planner) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.723959] (ur_llm_planner) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.724035] (ur_llm_planner) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.801084] (-) TimerEvent: {}
+[1.901295] (-) TimerEvent: {}
+[2.001507] (-) TimerEvent: {}
+[2.101687] (-) TimerEvent: {}
+[2.138179] (ur_llm_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.186746] (ur_llm_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[2.201750] (-) TimerEvent: {}
+[2.202705] (ur_llm_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/sonvu/ur_ws/build/ur_llm_planner\n'}
+[2.215182] (ur_llm_planner) CommandEnded: {'returncode': 0}
+[2.215876] (ur_llm_planner) JobProgress: {'identifier': 'ur_llm_planner', 'progress': 'build'}
+[2.216692] (ur_llm_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sonvu/ur_ws/build/ur_llm_planner', '--', '-j16', '-l16'], 'cwd': '/home/sonvu/ur_ws/build/ur_llm_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sonvu/ur_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-283_agent'), ('LANGUAGE', 'en_US:en'), ('USER', 'sonvu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'vi_VN'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.283'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'b5e3bdbea9b3c0accfcf98624e6855b0'), ('HOME', '/home/sonvu'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '1'), ('OLDPWD', '/home/sonvu/ur_ws/src/ur_llm_planner/src'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-78106ad6-1.12-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'vi_VN'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('SYSTEMD_EXEC_PID', '1765'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/sonvu/ur_ws/install:/home/sonvu/rtablc_base/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sonvu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sonvu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/sonvu/ur_ws/install/ur_robot_driver/bin:/home/sonvu/.local/bin:/opt/ros/humble/bin:/home/sonvu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/pdf-viewer~g2/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/design/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/legal/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/engineering/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/data/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/canva/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/cowork-plugin-management/bin'), ('SESSION_MANAGER', 'local/sonvu-Thin-15-B13UC:@/tmp/.ICE-unix/1735,unix/sonvu-Thin-15-B13UC:/tmp/.ICE-unix/1735'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34f262aa_9a64_420c_8bd7_92122324e787'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '17165'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPVZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('COPILOT_OTEL_ENABLED', 'true'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('MXC_BIN_DIR', '/usr/share/code/resources/app/node_modules/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'a618fc4b-00fa-4d8e-8546-38c0691d8e33'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sonvu/ur_ws/build/ur_llm_planner'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/sonvu/.config/Code/CachedData/6a44c352bd24569c417e530095901b649960f9f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/sonvu/.vscode/extensions/anthropic.claude-code-2.1.283-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/sonvu/rtablc_base/build/rtablc_experiment:/home/sonvu/rtablc_base/install/rtablc_experiment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/17165.sock'), ('CMAKE_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('VSCODE_PID', '15003'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[2.276299] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_generator_c\n'}
+[2.287362] (ur_llm_planner) StdoutLine: {'line': b'[  2%] Built target ur_llm_planner__rs\n'}
+[2.291446] (ur_llm_planner) StdoutLine: {'line': b'[  5%] Built target ur_llm_planner__cpp\n'}
+[2.293912] (ur_llm_planner) StdoutLine: {'line': b'[ 14%] Built target ur_llm_planner__rosidl_generator_c\n'}
+[2.294510] (ur_llm_planner) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_llm_planner\n'}
+[2.295965] (ur_llm_planner) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_ur_llm_planner\n'}
+[2.301875] (-) TimerEvent: {}
+[2.303769] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_introspection_cpp\n'}
+[2.304179] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_cpp\n'}
+[2.305378] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_fastrtps_c\n'}
+[2.306335] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_introspection_c\n'}
+[2.309578] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_c\n'}
+[2.310747] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_fastrtps_cpp\n'}
+[2.315999] (ur_llm_planner) StdoutLine: {'line': b'[ 23%] Built target ur_llm_planner__rosidl_typesupport_introspection_cpp\n'}
+[2.317128] (ur_llm_planner) StdoutLine: {'line': b'[ 32%] Built target ur_llm_planner__rosidl_typesupport_introspection_c\n'}
+[2.318070] (ur_llm_planner) StdoutLine: {'line': b'[ 41%] Built target ur_llm_planner__rosidl_typesupport_fastrtps_c\n'}
+[2.319077] (ur_llm_planner) StdoutLine: {'line': b'[ 50%] Built target ur_llm_planner__rosidl_typesupport_cpp\n'}
+[2.322099] (ur_llm_planner) StdoutLine: {'line': b'[ 58%] Built target ur_llm_planner__rosidl_typesupport_c\n'}
+[2.324350] (ur_llm_planner) StdoutLine: {'line': b'[ 67%] Built target ur_llm_planner__rosidl_typesupport_fastrtps_cpp\n'}
+[2.343305] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target skill_server\n'}
+[2.351780] (ur_llm_planner) StdoutLine: {'line': b'[ 67%] Built target ur_llm_planner\n'}
+[2.364738] (ur_llm_planner) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/skill_server.dir/src/skill_server.cpp.o\n'}
+[2.375936] (ur_llm_planner) StdoutLine: {'line': b'[ 73%] Built target ur_llm_planner__py\n'}
+[2.388292] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_generator_py\n'}
+[2.399602] (ur_llm_planner) StdoutLine: {'line': b'[ 79%] Built target ur_llm_planner__rosidl_generator_py\n'}
+[2.401951] (-) TimerEvent: {}
+[2.412810] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_introspection_c__pyext\n'}
+[2.414021] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_c__pyext\n'}
+[2.414179] (ur_llm_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ur_llm_planner__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.424831] (ur_llm_planner) StdoutLine: {'line': b'[ 91%] Built target ur_llm_planner__rosidl_typesupport_introspection_c__pyext\n'}
+[2.425100] (ur_llm_planner) StdoutLine: {'line': b'[ 91%] Built target ur_llm_planner__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.428103] (ur_llm_planner) StdoutLine: {'line': b'[ 97%] Built target ur_llm_planner__rosidl_typesupport_c__pyext\n'}
+[2.502069] (-) TimerEvent: {}
+[2.544075] (ur_llm_planner) StdoutLine: {'line': b'running egg_info\n'}
+[2.544754] (ur_llm_planner) StdoutLine: {'line': b'writing llm_planner.egg-info/PKG-INFO\n'}
+[2.544990] (ur_llm_planner) StdoutLine: {'line': b'writing dependency_links to llm_planner.egg-info/dependency_links.txt\n'}
+[2.545131] (ur_llm_planner) StdoutLine: {'line': b'writing top-level names to llm_planner.egg-info/top_level.txt\n'}
+[2.547726] (ur_llm_planner) StdoutLine: {'line': b"reading manifest file 'llm_planner.egg-info/SOURCES.txt'\n"}
+[2.548423] (ur_llm_planner) StdoutLine: {'line': b"writing manifest file 'llm_planner.egg-info/SOURCES.txt'\n"}
+[2.549873] (ur_llm_planner) StdoutLine: {'line': b'running egg_info\n'}
+[2.550771] (ur_llm_planner) StdoutLine: {'line': b'writing ur_llm_planner.egg-info/PKG-INFO\n'}
+[2.550936] (ur_llm_planner) StdoutLine: {'line': b'writing dependency_links to ur_llm_planner.egg-info/dependency_links.txt\n'}
+[2.551138] (ur_llm_planner) StdoutLine: {'line': b'writing top-level names to ur_llm_planner.egg-info/top_level.txt\n'}
+[2.553311] (ur_llm_planner) StdoutLine: {'line': b"reading manifest file 'ur_llm_planner.egg-info/SOURCES.txt'\n"}
+[2.553907] (ur_llm_planner) StdoutLine: {'line': b"writing manifest file 'ur_llm_planner.egg-info/SOURCES.txt'\n"}
+[2.575770] (ur_llm_planner) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_llm_planner_egg\n'}
+[2.582904] (ur_llm_planner) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_ur_llm_planner_egg\n'}
+[2.602152] (-) TimerEvent: {}
+[2.702337] (-) TimerEvent: {}
+[2.802571] (-) TimerEvent: {}
+[2.902856] (-) TimerEvent: {}
+[3.003118] (-) TimerEvent: {}
+[3.103376] (-) TimerEvent: {}
+[3.203649] (-) TimerEvent: {}
+[3.303909] (-) TimerEvent: {}
+[3.404140] (-) TimerEvent: {}
+[3.504411] (-) TimerEvent: {}
+[3.604638] (-) TimerEvent: {}
+[3.704891] (-) TimerEvent: {}
+[3.805126] (-) TimerEvent: {}
+[3.905346] (-) TimerEvent: {}
+[4.005588] (-) TimerEvent: {}
+[4.105807] (-) TimerEvent: {}
+[4.206047] (-) TimerEvent: {}
+[4.306278] (-) TimerEvent: {}
+[4.406507] (-) TimerEvent: {}
+[4.506748] (-) TimerEvent: {}
+[4.606975] (-) TimerEvent: {}
+[4.707207] (-) TimerEvent: {}
+[4.807444] (-) TimerEvent: {}
+[4.907703] (-) TimerEvent: {}
+[5.007914] (-) TimerEvent: {}
+[5.108130] (-) TimerEvent: {}
+[5.208367] (-) TimerEvent: {}
+[5.308629] (-) TimerEvent: {}
+[5.408854] (-) TimerEvent: {}
+[5.509144] (-) TimerEvent: {}
+[5.609373] (-) TimerEvent: {}
+[5.709603] (-) TimerEvent: {}
+[5.809915] (-) TimerEvent: {}
+[5.910146] (-) TimerEvent: {}
+[6.010385] (-) TimerEvent: {}
+[6.110649] (-) TimerEvent: {}
+[6.210908] (-) TimerEvent: {}
+[6.311098] (-) TimerEvent: {}
+[6.411284] (-) TimerEvent: {}
+[6.511473] (-) TimerEvent: {}
+[6.611656] (-) TimerEvent: {}
+[6.711848] (-) TimerEvent: {}
+[6.812034] (-) TimerEvent: {}
+[6.912247] (-) TimerEvent: {}
+[7.012444] (-) TimerEvent: {}
+[7.112649] (-) TimerEvent: {}
+[7.212841] (-) TimerEvent: {}
+[7.313035] (-) TimerEvent: {}
+[7.413221] (-) TimerEvent: {}
+[7.513405] (-) TimerEvent: {}
+[7.613628] (-) TimerEvent: {}
+[7.713841] (-) TimerEvent: {}
+[7.814037] (-) TimerEvent: {}
+[7.914232] (-) TimerEvent: {}
+[8.014423] (-) TimerEvent: {}
+[8.114599] (-) TimerEvent: {}
+[8.214826] (-) TimerEvent: {}
+[8.315035] (-) TimerEvent: {}
+[8.415242] (-) TimerEvent: {}
+[8.515476] (-) TimerEvent: {}
+[8.615649] (-) TimerEvent: {}
+[8.715890] (-) TimerEvent: {}
+[8.816126] (-) TimerEvent: {}
+[8.916362] (-) TimerEvent: {}
+[9.016585] (-) TimerEvent: {}
+[9.116796] (-) TimerEvent: {}
+[9.216997] (-) TimerEvent: {}
+[9.317204] (-) TimerEvent: {}
+[9.417385] (-) TimerEvent: {}
+[9.517566] (-) TimerEvent: {}
+[9.617803] (-) TimerEvent: {}
+[9.717995] (-) TimerEvent: {}
+[9.818180] (-) TimerEvent: {}
+[9.918357] (-) TimerEvent: {}
+[10.018581] (-) TimerEvent: {}
+[10.118771] (-) TimerEvent: {}
+[10.218945] (-) TimerEvent: {}
+[10.319170] (-) TimerEvent: {}
+[10.419370] (-) TimerEvent: {}
+[10.519552] (-) TimerEvent: {}
+[10.619757] (-) TimerEvent: {}
+[10.719927] (-) TimerEvent: {}
+[10.820097] (-) TimerEvent: {}
+[10.920291] (-) TimerEvent: {}
+[11.020468] (-) TimerEvent: {}
+[11.120639] (-) TimerEvent: {}
+[11.220836] (-) TimerEvent: {}
+[11.321018] (-) TimerEvent: {}
+[11.421219] (-) TimerEvent: {}
+[11.521397] (-) TimerEvent: {}
+[11.621595] (-) TimerEvent: {}
+[11.721778] (-) TimerEvent: {}
+[11.821977] (-) TimerEvent: {}
+[11.922160] (-) TimerEvent: {}
+[12.022405] (-) TimerEvent: {}
+[12.065062] (ur_llm_planner) StdoutLine: {'line': b'[100%] Linking CXX executable skill_server\n'}
+[12.122499] (-) TimerEvent: {}
+[12.222693] (-) TimerEvent: {}
+[12.322864] (-) TimerEvent: {}
+[12.423099] (-) TimerEvent: {}
+[12.523310] (-) TimerEvent: {}
+[12.622414] (ur_llm_planner) StdoutLine: {'line': b'[100%] Built target skill_server\n'}
+[12.623384] (-) TimerEvent: {}
+[12.633891] (ur_llm_planner) CommandEnded: {'returncode': 0}
+[12.634667] (ur_llm_planner) JobProgress: {'identifier': 'ur_llm_planner', 'progress': 'install'}
+[12.644567] (ur_llm_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sonvu/ur_ws/build/ur_llm_planner'], 'cwd': '/home/sonvu/ur_ws/build/ur_llm_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/sonvu/ur_ws'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-283_agent'), ('LANGUAGE', 'en_US:en'), ('USER', 'sonvu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'vi_VN'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.283'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_llm_planner/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'b5e3bdbea9b3c0accfcf98624e6855b0'), ('HOME', '/home/sonvu'), ('CHROME_DESKTOP', 'code.desktop'), ('GIT_CONFIG_COUNT', '1'), ('OLDPWD', '/home/sonvu/ur_ws/src/ur_llm_planner/src'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-78106ad6-1.12-main.sock'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'vi_VN'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('SYSTEMD_EXEC_PID', '1765'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('COLCON_PREFIX_PATH', '/home/sonvu/ur_ws/install:/home/sonvu/rtablc_base/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sonvu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sonvu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/sonvu/ur_ws/install/ur_robot_driver/bin:/home/sonvu/.local/bin:/opt/ros/humble/bin:/home/sonvu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/pdf-viewer~g2/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/design/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/legal/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/engineering/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/data/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/canva/bin:/home/sonvu/.claude/plugins/synced/d6928a5b-0369-4d4c-85ad-b411f553ef94_3f212a17-c43c-434f-acba-6d376a2ee673/cowork-plugin-management/bin'), ('SESSION_MANAGER', 'local/sonvu-Thin-15-B13UC:@/tmp/.ICE-unix/1735,unix/sonvu-Thin-15-B13UC:/tmp/.ICE-unix/1735'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34f262aa_9a64_420c_8bd7_92122324e787'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '17165'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TPVZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('COPILOT_OTEL_ENABLED', 'true'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('MXC_BIN_DIR', '/usr/share/code/resources/app/node_modules/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', 'a618fc4b-00fa-4d8e-8546-38c0691d8e33'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sonvu/ur_ws/build/ur_llm_planner'), ('VSCODE_CLI', '1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/sonvu/.config/Code/CachedData/6a44c352bd24569c417e530095901b649960f9f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/sonvu/.vscode/extensions/anthropic.claude-code-2.1.283-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/sonvu/rtablc_base/build/rtablc_experiment:/home/sonvu/rtablc_base/install/rtablc_experiment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('ELECTRON_NO_ATTACH_CONSOLE', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/17165.sock'), ('CMAKE_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_llm_planner:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('VSCODE_PID', '15003'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file')]), 'shell': False}
+[12.655018] (ur_llm_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.655218] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/rosidl_interfaces/ur_llm_planner\n'}
+[12.655278] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner\n'}
+[12.655364] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg\n'}
+[12.655413] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.655592] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv\n'}
+[12.655646] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail\n'}
+[12.655768] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__struct.h\n'}
+[12.655960] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__functions.h\n'}
+[12.656011] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__functions.c\n'}
+[12.656055] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.h\n'}
+[12.656098] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/execute_skill.h\n'}
+[12.656140] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/library_path.sh\n'}
+[12.656183] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/library_path.dsv\n'}
+[12.656224] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_generator_c.so\n'}
+[12.656265] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner\n'}
+[12.656376] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg\n'}
+[12.656424] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.656471] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv\n'}
+[12.656517] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail\n'}
+[12.656673] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_fastrtps_c.h\n'}
+[12.656721] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_fastrtps_c.so\n'}
+[12.656763] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner\n'}
+[12.656807] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg\n'}
+[12.656852] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.656895] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv\n'}
+[12.656939] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail\n'}
+[12.656992] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.c\n'}
+[12.657400] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_introspection_c.h\n'}
+[12.657554] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_introspection_c.so\n'}
+[12.657634] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_c.so\n'}
+[12.657687] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner\n'}
+[12.657877] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg\n'}
+[12.657926] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.658138] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv\n'}
+[12.658194] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/execute_skill.hpp\n'}
+[12.658246] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail\n'}
+[12.658297] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.hpp\n'}
+[12.658357] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__struct.hpp\n'}
+[12.658411] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__traits.hpp\n'}
+[12.658462] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__builder.hpp\n'}
+[12.658511] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner\n'}
+[12.658561] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg\n'}
+[12.658610] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.658659] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv\n'}
+[12.658714] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail\n'}
+[12.658764] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/dds_fastrtps\n'}
+[12.658820] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.658882] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.658940] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner\n'}
+[12.659005] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv\n'}
+[12.659072] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail\n'}
+[12.659131] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.659191] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/include/ur_llm_planner/ur_llm_planner/srv/detail/execute_skill__type_support.cpp\n'}
+[12.659436] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_introspection_cpp.so\n'}
+[12.659646] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_typesupport_cpp.so\n'}
+[12.659833] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/pythonpath.sh\n'}
+[12.659972] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/pythonpath.dsv\n'}
+[12.660103] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info\n'}
+[12.660231] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.660381] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[12.660496] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.660550] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[12.660604] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner\n'}
+[12.660650] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/_ur_llm_planner_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.660698] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.660760] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/_ur_llm_planner_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.660807] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/__init__.py\n'}
+[12.660852] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/_ur_llm_planner_s.ep.rosidl_typesupport_c.c\n'}
+[12.660905] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv\n'}
+[12.660955] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv/__init__.py\n'}
+[12.661016] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv/_execute_skill.py\n'}
+[12.661063] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv/_execute_skill_s.c\n'}
+[12.661110] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.661154] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/libur_llm_planner__rosidl_generator_py.so\n'}
+[12.661199] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.690944] (ur_llm_planner) StdoutLine: {'line': b"Listing '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner'...\n"}
+[12.691110] (ur_llm_planner) StdoutLine: {'line': b"Compiling '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/__init__.py'...\n"}
+[12.691176] (ur_llm_planner) StdoutLine: {'line': b"Listing '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/srv'...\n"}
+[12.695425] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.695653] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.695736] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/ur_llm_planner/ur_llm_planner_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.695941] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/libur_llm_planner__rosidl_generator_py.so\n'}
+[12.696256] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/rust_packages/ur_llm_planner\n'}
+[12.696539] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust\n'}
+[12.696600] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src\n'}
+[12.696652] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/srv.rs\n'}
+[12.696700] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/srv\n'}
+[12.696791] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/srv/rmw.rs\n'}
+[12.696835] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/src/lib.rs\n'}
+[12.696876] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/Cargo.toml\n'}
+[12.696917] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/rust/build.rs\n'}
+[12.696958] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill.idl\n'}
+[12.697012] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill.srv\n'}
+[12.697061] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill_Request.msg\n'}
+[12.697101] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/srv/ExecuteSkill_Response.msg\n'}
+[12.697141] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/lib/ur_llm_planner/skill_server\n'}
+[12.698747] (ur_llm_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/sonvu/ur_ws/install/ur_llm_planner/lib/ur_llm_planner/skill_server" to ""\n'}
+[12.698933] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info\n'}
+[12.698992] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.699192] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[12.699238] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.699281] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[12.699324] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner\n'}
+[12.699365] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/prompt.py\n'}
+[12.699401] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/__init__.py\n'}
+[12.699433] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/plan_validator.py\n'}
+[12.699465] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner/llm_client.py\n'}
+[12.723512] (-) TimerEvent: {}
+[12.732150] (ur_llm_planner) StdoutLine: {'line': b"Listing '/home/sonvu/ur_ws/install/ur_llm_planner/local/lib/python3.10/dist-packages/llm_planner'...\n"}
+[12.737356] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/lib/ur_llm_planner/llm_planner_node.py\n'}
+[12.737901] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/launch\n'}
+[12.739076] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/launch/sim.launch.py\n'}
+[12.739145] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/config\n'}
+[12.739191] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/config/llm.yaml\n'}
+[12.739231] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/config/scene.yaml\n'}
+[12.739272] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/worlds\n'}
+[12.739310] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/worlds/pick_place.sdf\n'}
+[12.739351] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/package_run_dependencies/ur_llm_planner\n'}
+[12.739393] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/parent_prefix_path/ur_llm_planner\n'}
+[12.739431] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/ament_prefix_path.sh\n'}
+[12.739469] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/ament_prefix_path.dsv\n'}
+[12.739516] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/path.sh\n'}
+[12.739559] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/environment/path.dsv\n'}
+[12.739599] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.bash\n'}
+[12.739654] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.sh\n'}
+[12.739695] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.zsh\n'}
+[12.739746] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/local_setup.dsv\n'}
+[12.739791] (ur_llm_planner) StdoutLine: {'line': b'-- Installing: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/package.dsv\n'}
+[12.739830] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ament_index/resource_index/packages/ur_llm_planner\n'}
+[12.739868] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_cExport.cmake\n'}
+[12.739907] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.739944] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.739982] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.740022] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.740061] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.740099] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cExport.cmake\n'}
+[12.740131] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.740164] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_cppExport.cmake\n'}
+[12.740195] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.740228] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.740261] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.740293] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.740326] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cppExport.cmake\n'}
+[12.740358] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_planner__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.740392] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_pyExport.cmake\n'}
+[12.740428] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/export_ur_llm_planner__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.740468] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/rosidl_cmake-extras.cmake\n'}
+[12.740586] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.740637] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.740753] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.741149] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.741194] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.741235] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.741275] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_plannerConfig.cmake\n'}
+[12.741370] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/cmake/ur_llm_plannerConfig-version.cmake\n'}
+[12.741531] (ur_llm_planner) StdoutLine: {'line': b'-- Up-to-date: /home/sonvu/ur_ws/install/ur_llm_planner/share/ur_llm_planner/package.xml\n'}
+[12.741924] (ur_llm_planner) CommandEnded: {'returncode': 0}
+[12.760054] (ur_llm_planner) JobEnded: {'identifier': 'ur_llm_planner', 'rc': 0}
+[12.760628] (-) EventReactorShutdown: {}

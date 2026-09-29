@@ -1,0 +1,8 @@
+failed to create symbolic link '/home/sonvu/ur_ws/build/ur_llm_planner/ament_cmake_python/ur_llm_planner/ur_llm_planner' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ur_llm_planner.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ur_llm_planner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/ament_cmake_python_symlink_ur_llm_planner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+failed to create symbolic link '/home/sonvu/ur_ws/build/ur_llm_planner/ament_cmake_python/llm_planner/llm_planner' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_llm_planner.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_llm_planner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:641: CMakeFiles/ament_cmake_python_symlink_llm_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

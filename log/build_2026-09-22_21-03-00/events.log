@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000498] (-) JobUnselected: {'identifier': 'ur'}
+[0.000574] (-) JobUnselected: {'identifier': 'ur_bringup'}
+[0.000600] (-) JobUnselected: {'identifier': 'ur_calibration'}
+[0.000630] (-) JobUnselected: {'identifier': 'ur_controllers'}
+[0.000654] (-) JobUnselected: {'identifier': 'ur_dashboard_msgs'}
+[0.000723] (-) JobUnselected: {'identifier': 'ur_moveit_config'}
+[0.000747] (-) JobUnselected: {'identifier': 'ur_robot_driver'}
+[0.000770] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.000795] (ur_letter_writer) JobQueued: {'identifier': 'ur_letter_writer', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/sonvu/ur_ws/install/ur_dashboard_msgs'), ('ur_moveit_config', '/home/sonvu/ur_ws/install/ur_moveit_config'), ('ur_controllers', '/home/sonvu/ur_ws/install/ur_controllers'), ('ur_simulation_gz', '/home/sonvu/ur_ws/install/ur_simulation_gz')])}
+[0.000830] (ur_letter_writer) JobStarted: {'identifier': 'ur_letter_writer'}
+[0.012163] (ur_letter_writer) JobProgress: {'identifier': 'ur_letter_writer', 'progress': 'cmake'}
+[0.012900] (ur_letter_writer) JobProgress: {'identifier': 'ur_letter_writer', 'progress': 'build'}
+[0.013808] (ur_letter_writer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sonvu/ur_ws/build/ur_letter_writer', '--', '-j16', '-l16'], 'cwd': '/home/sonvu/ur_ws/build/ur_letter_writer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sonvu'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sonvu'), ('OLDPWD', '/home/sonvu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1868'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sonvu/ur_ws/install:/home/sonvu/rtablc_base/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sonvu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sonvu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sonvu/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/sonvu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sonvu-Thin-15-B13UC:@/tmp/.ICE-unix/1833,unix/sonvu-Thin-15-B13UC:/tmp/.ICE-unix/1833'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eba1c3c9_05aa_4437_a6e7_f56b4d860ac3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E1H3V3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sonvu/ur_ws/build/ur_letter_writer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sonvu/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/sonvu/rtablc_base/build/rtablc_experiment:/home/sonvu/rtablc_base/install/rtablc_experiment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble')]), 'shell': False}
+[0.050200] (ur_letter_writer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target letter_writer_node\x1b[0m\n'}
+[0.067670] (ur_letter_writer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o\x1b[0m\n'}
+[0.099662] (-) TimerEvent: {}
+[0.199965] (-) TimerEvent: {}
+[0.300297] (-) TimerEvent: {}
+[0.400510] (-) TimerEvent: {}
+[0.500950] (-) TimerEvent: {}
+[0.601272] (-) TimerEvent: {}
+[0.701487] (-) TimerEvent: {}
+[0.801737] (-) TimerEvent: {}
+[0.901987] (-) TimerEvent: {}
+[1.002313] (-) TimerEvent: {}
+[1.102528] (-) TimerEvent: {}
+[1.202751] (-) TimerEvent: {}
+[1.303059] (-) TimerEvent: {}
+[1.403389] (-) TimerEvent: {}
+[1.503708] (-) TimerEvent: {}
+[1.604028] (-) TimerEvent: {}
+[1.704335] (-) TimerEvent: {}
+[1.804545] (-) TimerEvent: {}
+[1.904866] (-) TimerEvent: {}
+[2.005174] (-) TimerEvent: {}
+[2.105435] (-) TimerEvent: {}
+[2.205749] (-) TimerEvent: {}
+[2.306085] (-) TimerEvent: {}
+[2.406397] (-) TimerEvent: {}
+[2.506705] (-) TimerEvent: {}
+[2.607018] (-) TimerEvent: {}
+[2.707357] (-) TimerEvent: {}
+[2.807575] (-) TimerEvent: {}
+[2.907891] (-) TimerEvent: {}
+[3.008203] (-) TimerEvent: {}
+[3.108584] (-) TimerEvent: {}
+[3.208860] (-) TimerEvent: {}
+[3.309068] (-) TimerEvent: {}
+[3.409384] (-) TimerEvent: {}
+[3.509705] (-) TimerEvent: {}
+[3.610016] (-) TimerEvent: {}
+[3.710332] (-) TimerEvent: {}
+[3.810653] (-) TimerEvent: {}
+[3.910978] (-) TimerEvent: {}
+[4.011227] (-) TimerEvent: {}
+[4.111576] (-) TimerEvent: {}
+[4.211843] (-) TimerEvent: {}
+[4.312077] (-) TimerEvent: {}
+[4.412297] (-) TimerEvent: {}
+[4.512690] (-) TimerEvent: {}
+[4.613011] (-) TimerEvent: {}
+[4.713356] (-) TimerEvent: {}
+[4.813613] (-) TimerEvent: {}
+[4.913820] (-) TimerEvent: {}
+[5.014055] (-) TimerEvent: {}
+[5.114285] (-) TimerEvent: {}
+[5.214503] (-) TimerEvent: {}
+[5.314736] (-) TimerEvent: {}
+[5.415041] (-) TimerEvent: {}
+[5.515368] (-) TimerEvent: {}
+[5.615572] (-) TimerEvent: {}
+[5.715796] (-) TimerEvent: {}
+[5.816112] (-) TimerEvent: {}
+[5.878391] (ur_letter_writer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable letter_writer_node\x1b[0m\n'}
+[5.916198] (-) TimerEvent: {}
+[6.016467] (-) TimerEvent: {}
+[6.116680] (-) TimerEvent: {}
+[6.163568] (ur_letter_writer) StdoutLine: {'line': b'[100%] Built target letter_writer_node\n'}
+[6.175066] (ur_letter_writer) CommandEnded: {'returncode': 0}
+[6.175741] (ur_letter_writer) JobProgress: {'identifier': 'ur_letter_writer', 'progress': 'install'}
+[6.182131] (ur_letter_writer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sonvu/ur_ws/build/ur_letter_writer'], 'cwd': '/home/sonvu/ur_ws/build/ur_letter_writer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sonvu'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sonvu/ur_ws/install/ur_controllers/lib:/home/sonvu/ur_ws/install/ur_dashboard_msgs/lib:/home/sonvu/ur_ws/install/ur_robot_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sonvu'), ('OLDPWD', '/home/sonvu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '1868'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sonvu/ur_ws/install:/home/sonvu/rtablc_base/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sonvu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sonvu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sonvu/ur_ws/install/ur_robot_driver/bin:/opt/ros/humble/bin:/home/sonvu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sonvu-Thin-15-B13UC:@/tmp/.ICE-unix/1833,unix/sonvu-Thin-15-B13UC:/tmp/.ICE-unix/1833'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eba1c3c9_05aa_4437_a6e7_f56b4d860ac3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E1H3V3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sonvu/ur_ws/build/ur_letter_writer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sonvu/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/sonvu/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:/home/sonvu/rtablc_base/build/rtablc_experiment:/home/sonvu/rtablc_base/install/rtablc_experiment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sonvu/ur_ws/install/ur_simulation_gz:/home/sonvu/ur_ws/install/ur_controllers:/home/sonvu/ur_ws/install/ur_moveit_config:/home/sonvu/ur_ws/install/ur_dashboard_msgs:/home/sonvu/ur_ws/install/ur_letter_writer:/home/sonvu/ur_ws/install/ur:/home/sonvu/ur_ws/install/ur_calibration:/home/sonvu/ur_ws/install/ur_robot_driver:/home/sonvu/ur_ws/install/ur_bringup:/home/sonvu/rtablc_base/install/rtablc_experiment:/opt/ros/humble')]), 'shell': False}
+[6.190074] (ur_letter_writer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.190269] (ur_letter_writer) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.190553] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/lib/ur_letter_writer/letter_writer_node\n'}
+[6.190769] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/launch/ur3_letter_writer.launch.py\n'}
+[6.190906] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ament_index/resource_index/package_run_dependencies/ur_letter_writer\n'}
+[6.191023] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ament_index/resource_index/parent_prefix_path/ur_letter_writer\n'}
+[6.191126] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/ament_prefix_path.sh\n'}
+[6.191250] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/ament_prefix_path.dsv\n'}
+[6.191419] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/path.sh\n'}
+[6.191543] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/environment/path.dsv\n'}
+[6.191659] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.bash\n'}
+[6.191704] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.sh\n'}
+[6.191748] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.zsh\n'}
+[6.191830] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/local_setup.dsv\n'}
+[6.191872] (ur_letter_writer) StdoutLine: {'line': b'-- Symlinking: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/package.dsv\n'}
+[6.200550] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ament_index/resource_index/packages/ur_letter_writer\n'}
+[6.200804] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/cmake/ur_letter_writerConfig.cmake\n'}
+[6.200882] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/cmake/ur_letter_writerConfig-version.cmake\n'}
+[6.200931] (ur_letter_writer) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sonvu/ur_ws/install/ur_letter_writer/share/ur_letter_writer/package.xml\n'}
+[6.202630] (ur_letter_writer) CommandEnded: {'returncode': 0}
+[6.213722] (ur_letter_writer) JobEnded: {'identifier': 'ur_letter_writer', 'rc': 0}
+[6.214074] (-) EventReactorShutdown: {}

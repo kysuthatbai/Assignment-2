@@ -1,0 +1,82 @@
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp:50[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster.cpp:38[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/gpio_controller.hpp:61[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/friction_model_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/friction_model_controller.hpp:47[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/friction_model_controller.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp:56[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/force_mode_controller.hpp:50[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:32[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp:67[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller.cpp:50[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp:53[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:60[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 | , or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                  [01;36m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/home/sonvu/ur_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp:26[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/tool_contact_controller.hpp:60[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/test/test_tool_contact_controller.cpp:40[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller_parameters.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/tolerances.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/joint_trajectory_controller/joint_trajectory_controller/joint_trajectory_controller.hpp:32[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp:43[m[K,
+                 from [01m[K/home/sonvu/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/test/test_scaled_joint_trajectory_controller_sampling.cpp:47[m[K:
+[01m[K/opt/ros/humble/include/tl_expected/expected.hpp:18:167:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.[m[K’
+   18 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available."[01;36m[K)[m[K // NOLINT
+      |                                                                                                                                                                       [01;36m[K^[m[K
