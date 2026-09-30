@@ -64,21 +64,29 @@ ros2 launch ur_llm_planner sim.launch.py startup_delay:=15.0   # tăng thời gi
 ```
 
 ---
+## 3. Kết nối và điều khiển Robot 
 
-## 3. Robot thao tác cơ bản (Terminal 2)
+### 3.1 Kết nối với 9router (Terminal 2)
 
 Thao tác 1 vật, ví dụ: *"Please put the red cube in zone B."*
 
+Gõ 9router
+
+Sau đó truy cập trang web của 9router, lấy API key ở dashboard đầu tiên và dán vào phần API key trong llm.ymal ở folder config trong source
+
+Dán model vào (Ở trong code em đang là gemini 3.5 flash lite)
+
+### 3.2 Robot thao tác cơ bản (Terminal 3)
+
 ```bash
 source ~/ur_ws/install/setup.bash
-export NINEROUTER_API_KEY=<api_key_cua_ban>
-ros2 run ur_llm_planner llm_planner_node.py --ros-args -p llm.model:=<ten_model> -p llm.api_key:=""
-```
+ros2 run ur_llm_planner llm_planner_node.py 
 
 Gõ lệnh tại dấu nhắc `>>>`:
 
 ```
 >>> Please put the red cube in zone B.
+
 >>> Đưa khối màu vàng vào vùng A.
 ```
 
@@ -86,7 +94,7 @@ Terminal sẽ in `USER COMMAND` → `LLM PLAN` → `EXECUTION` (từng bước S
 
 ---
 
-## 4. Robot thao tác nâng cao (Terminal 2 — cùng lệnh chạy như mục 3)
+## 4. Robot thao tác nâng cao (Terminal 3 — cùng lệnh chạy như mục 3)
 
 Phối hợp nhiều skill + nhiều vật trong một câu lệnh, kể cả khi vùng đích đang bị chiếm:
 
@@ -160,12 +168,12 @@ ros2 topic echo /llm_planner/result   # kết quả mỗi câu lệnh (SUCCESS/F
 
 Trên RViz: **Add → By topic → `/skill_server/markers` → MarkerArray** để hiện nhãn vùng A/B/C.
 
-### 7.3. Gửi lệnh / kế hoạch từ terminal khác (không gõ trực tiếp ở Terminal 2)
+### 7.3. Gửi lệnh / kế hoạch từ terminal khác (không gõ trực tiếp ở Terminal 3)
 
 ```bash
 source ~/ur_ws/install/setup.bash
 
-# Câu lệnh ngôn ngữ tự nhiên (planner ở Terminal 2 đang chạy, interactive hoặc không)
+# Câu lệnh ngôn ngữ tự nhiên (planner ở Terminal 3 đang chạy, interactive hoặc không)
 ros2 topic pub --once /nl_command std_msgs/msg/String "{data: 'Move the blue cube to zone C.'}"
 
 # Gửi thẳng kế hoạch JSON, bỏ qua LLM (kiểm thử Validator/Executor)
